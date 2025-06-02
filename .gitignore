@@ -1,2 +1,20 @@
 # To ignore all txt files on root directory
 *.txt
+
+# Ignore all Jupyter checkpoints
+**/.ipynb_checkpoints/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+venv/
+.env/
+
+# Jupyter Notebook hidden files
+*.nbconvert.ipynb
+
+# VS Code
+.vscode/
